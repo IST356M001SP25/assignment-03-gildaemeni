@@ -22,4 +22,12 @@ Examples:
 **Best Reflection** "I learned when to use while vs for loops. While loops are for sentiel-controlled values (waiting for a condition to occur), vs for loops are for iterating over collections of fixed values."
 
 `--- Reflection Below This Line ---`
+In this assignment, I learned how to upload and process packaging data using Streamlit. I worked with session state to track how many files and lines I processed, which is a concept I hadn’t used much before. I also got more practice using Streamlit's file uploader and file reading techniques.
 
+I struggled a bit when it came to reading the file and splitting it into lines. Initially, I was unsure about how to handle the file properly without using more advanced methods like StringIO. After testing a simpler approach where I read the file content and split it into lines, it became clearer.
+
+Using session state to track the number of files and lines was a new concept, but I feel more confident with it now. I was able to update the session state each time a file was processed and show a summary of the total files and lines processed. This part was easier than I expected after I figured out the basic flow.
+
+One area I need more practice with is file handling and working with larger datasets. I could also improve by getting more familiar with error handling and making my code more resilient when unexpected inputs are encountered.
+
+Moving forward, I plan to practice more with file reading and session state in Streamlit to better handle large files and improve the user experience. I will also look into more advanced error-handling techniques to make my apps more robust
